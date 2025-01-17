@@ -1,6 +1,7 @@
 module(
     name = "eabase",
-    version = "0.1.0",
+    # EABase hasn't been released for a little while but EASTL uses the latest HEAD so for now the version will be the date
+    version = "2024-08-17",
 )
 
 bazel_dep(name = "rules_cc", version = "0.0.17")
