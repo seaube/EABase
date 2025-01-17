@@ -1,0 +1,9 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "EABase",
+    hdrs = glob(["include/**/*"]),
+    includes = ["include/Common"],
+    strip_include_prefix = "include/Common",
+    visibility = ["//visibility:public"],
+)

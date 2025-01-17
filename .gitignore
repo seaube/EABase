@@ -47,3 +47,7 @@ Testing/*
 /buckaroo/
 .buckconfig.local
 BUCKAROO_DEPS
+
+# Bazel
+bazel-*
+*.bazel.lock
